@@ -1,0 +1,2 @@
+mysql.connector.errors.NotSupportedError: Authentication plugin 'caching_sha2_password' is not supported
+resolution: pip install --upgrade mysql-connector-python

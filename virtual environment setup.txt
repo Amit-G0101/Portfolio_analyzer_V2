@@ -1,0 +1,4 @@
+Open VS Code Terminal (Ctrl + ~).
+Create a virtual environment: python -m venv venv
+
+Activate the virtual environment for windows: venv\Scripts\activate
