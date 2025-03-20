@@ -1,0 +1,127 @@
+
+	[
+		{
+			"brokers": [
+				{
+					"broker_id": "FYRS",
+					"name": "FYERS"
+				},
+				{
+					"broker_id": "UPSTK",
+					"name": "UPSTOCK"
+				}
+			],
+			"stocks": [
+				{
+					"stock_id": "MSU1",
+					"symbol": "MSUMI",
+					"desc": "NA"
+				},
+				{
+					"stock_id": "AJA1",
+					"symbol": "AJANTSOYA",
+					"desc": "NA"
+				},
+				{
+					"stock_id": "SHR1",
+					"symbol": "SHREEGLOBAL",
+					"desc": "NA"
+				},
+				{
+					"stock_id": "TAJ1",
+					"symbol": "TAJGVK",
+					"desc": "NA"
+				},
+				{
+					"stock_id": "ITC1",
+					"symbol": "ITC",
+					"desc": "NA"
+				},
+				{
+					"stock_id": "TRI1",
+					"symbol": "TRIDENT",
+					"desc": "NA"
+				},
+				{
+					"stock_id": "TAT1",
+					"symbol": "TATAMOTORS",
+					"desc": "NA"
+				},
+				{
+					"stock_id": "ARE1",
+					"symbol": "ARE&M",
+					"desc": "NA"
+				},
+				{
+					"stock_id": "VBL1",
+					"symbol": "VBL",
+					"desc": "NA"
+				},
+				{
+					"stock_id": "SUZ1",
+					"symbol": "SUZLON",
+					"desc": "NA"
+				},
+				{
+					"stock_id": "IRF1",
+					"symbol": "IRFC",
+					"desc": "NA"
+				},
+				{
+					"stock_id": "ACE1",
+					"symbol": "ACE",
+					"desc": "NA"
+				},
+				{
+					"stock_id": "IEX1",
+					"symbol": "IEX",
+					"desc": "NA"
+				},
+				{
+					"stock_id": "OIL1",
+					"symbol": "OIL",
+					"desc": "NA"
+				},
+				{
+					"stock_id": "IDF1",
+					"symbol": "IDFCFIRSTB",
+					"desc": "NA"
+				},
+				{
+					"stock_id": "ADA1",
+					"symbol": "ADANIPOWER",
+					"desc": "NA"
+				},
+				{
+					"stock_id": "MAH1",
+					"symbol": "MAHLOG",
+					"desc": "NA"
+				},
+				{
+					"stock_id": "JSW1",
+					"symbol": "JSWINFRA",
+					"desc": "NA"
+				},
+				{
+					"stock_id": "ELE1",
+					"symbol": "ELECON",
+					"desc": "NA"
+				},
+				{
+					"stock_id": "CGP1",
+					"symbol": "CGPOWER",
+					"desc": "NA"
+				},
+				{
+					"stock_id": "MOT1",
+					"symbol": "MOTILALOFS",
+					"desc": "NA"
+				},
+				{
+					"stock_id": "ONG1",
+					"symbol": "ONGC",
+					"desc": "NA"
+				}
+			]
+		}
+	]

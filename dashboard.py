@@ -31,17 +31,17 @@ def get_stocks_broker_info():
 
 def run_dashboard():
         
-    
+    '''
     # Streamlit app
     st.title("Stock Portfolio Dashboard")
     
     # Fetch total investment
     total_invested = fetch_data("SELECT SUM(total_amount) AS total_invested FROM invest.trnsc_fact WHERE trnsc_type='BUY'")
-    
+    st.metric(label="Total Invested Amount", value=total_invested.iloc[0, 0])
     
     # Fetch total sold amount
     total_sold = fetch_data("SELECT SUM(total_amount) AS total_sold FROM invest.trnsc_fact WHERE trnsc_type='SELL'")
-    
+    st.metric(label="Total Sold Amount", value=total_sold.iloc[0, 0])
     
     # Amount still invested
     still_invested_query = """
@@ -57,7 +57,7 @@ def run_dashboard():
     SELECT SUM(remain_qty * avg_buy_price) AS Amount_still_invest FROM summary WHERE remain_qty > 0;
     """
     amount_still_invested = fetch_data(still_invested_query)
-    
+    st.metric(label="Total Amount Still Invested", value=amount_still_invested.iloc[0, 0])
     
     # Profit/Loss from Sold Stocks
     profit_loss_sold_query = """
@@ -75,8 +75,8 @@ def run_dashboard():
     """
     profit_loss_sold = fetch_data(profit_loss_sold_query)
     st.metric(label="Total Profit/Loss from Sold Stocks", value=profit_loss_sold.iloc[0, 0])
-    
-    
+    '
+    '''
     
     #7. Total consolidated profit/loss on still invested stocks from both brokers
     avgprice_qtyleft_query="""

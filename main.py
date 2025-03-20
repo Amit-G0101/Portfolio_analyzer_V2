@@ -1,4 +1,5 @@
 import transaction
+from dashboard import run_dashboard
 if __name__=="__main__":
     print("\n*************** Welcome to Portfolio Analyzer Window **************")
 
@@ -13,7 +14,7 @@ if __name__=="__main__":
         if choice == '1':
             transaction.add_transaction()
         elif choice == '2':
-            print("\n📊 Portfolio feature coming soon...")  # Placeholder
+            run_dashboard()
         elif choice == '0':
             confirm_exit = input("\n❓ Are you sure you want to exit? (yes/no): ").strip().lower()
             if confirm_exit in ('yes', 'y'):
